@@ -1,6 +1,6 @@
 <?php
 
-namespace Hozz\Verihubs\Service;
+namespace Mahesa\Verihubs\Service;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

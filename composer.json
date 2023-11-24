@@ -1,20 +1,21 @@
 {
-    "name": "hozz/verihubs",
-    "description": "package for verihubs check certificate",
+    "name": "mahesa/verihubs",
+    "description": "integration check endpoint",
     "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "7.9.x-dev"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Verihubs\\": "src/"
+            "Mahesa\\Verihubs\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "mahesa",
-            "email" : "mahesaie14@gmail.com"
+            "name": "mahesa nugraha",
+            "email": "mahesa.nugraha@rakhasa.com"
         }
     ],
-    "require": {
-        "hozz/verihubs": "^1.0",
-        "guzzlehttp/guzzle": "7.9.x-dev"
-    }
+    "minimum-stability": "dev"
 }
