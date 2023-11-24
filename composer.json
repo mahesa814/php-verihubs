@@ -13,8 +13,8 @@
             "email" : "mahesaie14@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
+        "hozz/verihubs": "^1.0",
         "guzzlehttp/guzzle": "7.9.x-dev"
     }
 }
