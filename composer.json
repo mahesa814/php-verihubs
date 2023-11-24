@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Hozz\\Verihubs\\": "src/"
+            "Verihubs\\": "src/"
         }
     },
     "authors": [
@@ -15,6 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "vendor/verihubs" : "^1.0",
         "guzzlehttp/guzzle": "7.9.x-dev"
     }
 }
