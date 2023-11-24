@@ -1,21 +1,20 @@
 {
-    "name": "mahesa/verihubs",
-    "description": "integration check endpoint",
+    "name": "mahesa814/php-verihubs",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "7.9.x-dev"
+        "php": "^7.2.5 || ^8.2",
+        "guzzlehttp/guzzle": "^7.8"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mahesa\\Verihubs\\": "src/"
+            "Mahesa814\\PhpVerihubs\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "mahesa nugraha",
-            "email": "mahesa.nugraha@rakhasa.com"
+            "name": "Mahesa Fajar Nugraha",
+            "email": "mahesaie14@gmail.com"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 }
